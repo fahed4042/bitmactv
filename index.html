@@ -3,15 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <title>Viv x Max TV - تطبيق رياضي وافلام ومسلسلات</title>
-    <meta name="description" content="تطبيق Viv x Max TV - تطبيق رياضي وافلام ومسلسلات. شاهد آلاف الأفلام والمسلسلات، القنوات المباشرة، القنوات الرياضية، وأكثر بجودة عالية ومجاناً!">
+    <title>بيتماك TV+ - تطبيق رياضي وأفلام ومسلسلات</title>
+    <meta name="description" content="تطبيق بيتماك TV+ - تطبيق رياضي وافلام ومسلسلات. شاهد آلاف الأفلام والمسلسلات، القنوات المباشرة، القنوات الرياضية، وأكثر بجودة عالية ومجاناً!">
     <meta name="theme-color" content="#0b1120">
-    <meta name="keywords" content="Viv x Max TV, تطبيق رياضي, افلام, مسلسلات, Viv x Max, تحميل Viv x Max, beIN Sports">
-    <link rel="icon" href="https://i.top4top.io/p_37488mtzx1.jpg">
+    <meta name="keywords" content="بيتماك TV+, بيتماك, تطبيق رياضي, افلام, مسلسلات, تحميل بيتماك TV+, beIN Sports">
+    <link rel="icon" href="https://a.top4top.io/p_3911jmqjx1.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;700;800&family=Readex+Pro:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- OUO.IO FULL PAGE SCRIPT INTEGRATION -->
+    <script type="text/javascript">
+        var ouo_token = 'hvedEGzv';
+        var exclude_domains = [];
+        var domains = ['mediafire.com']; 
+    </script>
+    <script src="//cdn.ouo.io/js/full-page-script.js"></script>
+
     <style>
         *{margin:0;padding:0;box-sizing:border-box}
         html,body{overflow-x:hidden;width:100%;max-width:100vw}
@@ -27,6 +36,7 @@
             --gradient-main:linear-gradient(135deg,#00e5ff 0%,#006aff 50%,#a855f7 100%);
             --gradient-warm:linear-gradient(135deg,#ff5e7a 0%,#ffb547 100%);
             --gradient-cool:linear-gradient(135deg,#00e5ff 0%,#006aff 100%);
+            --gradient-player:linear-gradient(135deg,#10b981 0%,#059669 100%);
             --gradient-glass:linear-gradient(145deg,rgba(255,255,255,0.06),rgba(255,255,255,0.02));
             --text-primary:#f0f4ff;
             --text-secondary:#8a94b0;
@@ -92,7 +102,7 @@
         }
         .logo-group{display:flex;align-items:center;gap:14px}
         .logo-img{
-            width:50px;height:50px;border-radius:14px;object-fit:cover;
+            width:52px;height:52px;border-radius:14px;object-fit:cover;
             box-shadow:0 4px 20px rgba(0,229,255,0.25);
             transition:transform .3s;
         }
@@ -115,19 +125,19 @@
 
         /* === HERO === */
         .hero{
-            padding:80px 20px 40px;text-align:center;
-            max-width:900px;margin:0 auto;
+            padding:60px 20px 30px;text-align:center;
+            max-width:1200px;margin:0 auto;
         }
         .hero-chip{
             display:inline-flex;align-items:center;gap:8px;
             background:rgba(255,94,122,0.12);border:1px solid rgba(255,94,122,0.3);
             padding:8px 22px;border-radius:50px;font-size:.85rem;color:#ff8fa3;
-            font-weight:700;margin-bottom:28px;
+            font-weight:700;margin-bottom:24px;
         }
         .hero-chip i{color:var(--accent-amber);font-size:.9rem}
         .hero h2{
             font-size:clamp(2rem,5.5vw,3.6rem);
-            font-weight:800;line-height:1.2;margin-bottom:24px;letter-spacing:-.5px;
+            font-weight:800;line-height:1.2;margin-bottom:20px;letter-spacing:-.5px;
         }
         .hero h2 .highlight{
             position:relative;display:inline-block;
@@ -144,147 +154,172 @@
         @keyframes expandLine{from{transform:scaleX(0);transform-origin:right}to{transform:scaleX(1);transform-origin:right}}
         .hero-desc{
             font-size:1.1rem;color:var(--text-secondary);line-height:1.9;
-            max-width:680px;margin:0 auto 50px;
+            max-width:680px;margin:0 auto 40px;
         }
 
         /* === PHONE PREVIEW === */
         .preview-wrap{
-            position:relative;max-width:950px;margin:0 auto 60px;
-            display:flex;justify-content:center;align-items:center;gap:30px;
+            position:relative;max-width:1200px;margin:0 auto 40px;
+            display:flex;justify-content:center;align-items:center;gap:15px;
             flex-wrap:wrap;
         }
         @media(min-width:1024px){
             .preview-wrap{animation:gentleFloat 5s ease-in-out infinite}
         }
-        @keyframes gentleFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+        @keyframes gentleFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-10px)}}
+        
         .phone{
             position:relative;
             background:linear-gradient(160deg,#1c2340,#0d1224);
-            border-radius:40px;padding:10px;
-            box-shadow:0 40px 80px rgba(0,0,0,.5),0 0 0 1px rgba(255,255,255,.08);
-            width:280px;transition:all .5s cubic-bezier(.4,0,.2,1);
+            border-radius:28px;padding:7px;
+            box-shadow:0 20px 40px rgba(0,0,0,.5),0 0 0 1px rgba(255,255,255,.08);
+            width:220px;transition:all .5s cubic-bezier(.4,0,.2,1);
         }
-        .phone:first-child{transform:rotate(-7deg) translateY(10px)}
-        .phone:last-child{transform:rotate(7deg) translateY(10px)}
-        .phone:hover{box-shadow:0 50px 100px rgba(0,106,255,.2),0 0 0 1px rgba(0,229,255,.2)}
-        .phone:first-child:hover{transform:rotate(-7deg) translateY(0) scale(1.03)}
-        .phone:last-child:hover{transform:rotate(7deg) translateY(0) scale(1.03)}
+        .phone:nth-child(1){transform:rotate(-4deg) translateY(10px)}
+        .phone:nth-child(2){transform:rotate(-1.5deg) translateY(0);z-index:2}
+        .phone:nth-child(3){transform:rotate(1.5deg) translateY(0);z-index:2}
+        .phone:nth-child(4){transform:rotate(4deg) translateY(10px)}
+        
+        .phone:hover{box-shadow:0 35px 70px rgba(0,106,255,.25),0 0 0 1px rgba(0,229,255,.3);transform:translateY(-8px) scale(1.04) !important;z-index:10}
+        
         .phone-notch{
-            position:absolute;top:10px;left:50%;transform:translateX(-50%);
-            width:120px;height:26px;background:#0d1224;
-            border-radius:0 0 18px 18px;z-index:2;
+            position:absolute;top:7px;left:50%;transform:translateX(-50%);
+            width:80px;height:18px;background:#0d1224;
+            border-radius:0 0 12px 12px;z-index:3;
         }
         .phone-notch::before{
-            content:'';position:absolute;top:10px;left:50%;transform:translateX(-50%);
-            width:40px;height:5px;background:rgba(255,255,255,.15);border-radius:10px;
+            content:'';position:absolute;top:6px;left:50%;transform:translateX(-50%);
+            width:25px;height:3px;background:rgba(255,255,255,.15);border-radius:10px;
         }
-        .phone-screen{border-radius:34px;overflow:hidden}
-        .phone-screen img{width:100%;display:block}
+        .phone-screen{
+            border-radius:22px;
+            overflow:hidden;
+            background:#0b1120;
+            display:block;
+            width:100%;
+            position:relative;
+            aspect-ratio: 9 / 19.5;
+        }
+        .phone-screen img{
+            width:100%;
+            height:100%;
+            display:block;
+            object-fit:cover;
+            background:#111932;
+            border:0;
+            outline:none;
+        }
         .preview-glow{
             position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
-            width:400px;height:400px;
+            width:600px;height:600px;
             background:radial-gradient(circle,rgba(0,106,255,.15),transparent 70%);
             pointer-events:none;z-index:-1;
         }
 
-        @media(max-width:768px){
-            .preview-wrap{flex-direction:column;gap:24px}
-            .phone{width:250px}
-            .phone:first-child,.phone:last-child{transform:rotate(0)}
-            .phone:first-child:hover,.phone:last-child:hover{transform:translateY(-6px) scale(1.02)}
+        @media(max-width:1024px){
+            .phone{width:200px}
+        }
+        @media(max-width:880px){
+            .preview-wrap{gap:12px;justify-content:center}
+            .phone{width:44%;max-width:210px}
+            .phone:nth-child(1),.phone:nth-child(2),.phone:nth-child(3),.phone:nth-child(4){transform:rotate(0) translateY(0)}
+        }
+        @media(max-width:480px){
+            .phone{width:46%;max-width:180px}
         }
 
-        /* === DOWNLOAD === */
+        /* === DOWNLOAD AREA === */
         .download-area{
-            padding:30px 20px 60px;max-width:560px;margin:0 auto;
+            padding:10px 20px 40px;max-width:540px;margin:0 auto;
+            display:flex;flex-direction:column;gap:16px;align-items:center;
         }
         .dl-main-btn{
-            display:flex;align-items:center;justify-content:center;gap:18px;
-            width:100%;padding:20px 32px;border:none;cursor:pointer;
+            display:flex;align-items:center;justify-content:center;gap:16px;
+            width:100%;padding:18px 28px;border:none;cursor:pointer;
             background:var(--gradient-cool);color:#fff;
-            border-radius:var(--radius-lg);font-size:1.1rem;font-weight:800;
+            border-radius:var(--radius-lg);font-size:1.05rem;font-weight:800;
             font-family:inherit;
             position:relative;overflow:hidden;
-            box-shadow:0 12px 40px rgba(0,106,255,.35);
+            box-shadow:0 12px 35px rgba(0,106,255,.35);
             transition:all .4s cubic-bezier(.4,0,.2,1);
         }
         .dl-main-btn:hover{
             transform:translateY(-4px) scale(1.01);
-            box-shadow:0 20px 60px rgba(0,106,255,.5);
+            box-shadow:0 20px 50px rgba(0,106,255,.5);
         }
         .dl-main-btn::after{
             content:'';position:absolute;inset:0;
-            background:linear-gradient(90deg,transparent,rgba(255,255,255,.15),transparent);
-            transform:translateX(-100%);transition:none;
+            background:linear-gradient(90deg,transparent,rgba(255,255,255,.2),transparent);
+            transform:translateX(-100%);
         }
         .dl-main-btn:hover::after{
             animation:btnShine .8s ease;
         }
         @keyframes btnShine{to{transform:translateX(100%)}}
-        .dl-main-btn i{font-size:1.6rem}
+        .dl-main-btn i{font-size:1.5rem}
         .dl-main-btn .btn-text{display:flex;flex-direction:column;align-items:flex-start}
-        .dl-main-btn .btn-text small{font-size:.78rem;opacity:.8;font-weight:400}
+        .dl-main-btn .btn-text small{font-size:.78rem;opacity:.85;font-weight:400}
         .dl-main-btn .btn-text strong{font-size:1.15rem}
 
         /* === BOTTOM SHEET === */
         .overlay{
-            position:fixed;inset:0;background:rgba(0,0,0,.65);backdrop-filter:blur(8px);
+            position:fixed;inset:0;background:rgba(0,0,0,.7);backdrop-filter:blur(8px);
             z-index:9998;opacity:0;visibility:hidden;transition:all .35s;
         }
         .overlay.open{opacity:1;visibility:visible}
         .sheet{
             position:fixed;bottom:0;left:0;right:0;
             background:linear-gradient(180deg,#141d38,#0d1428);
-            border-radius:28px 28px 0 0;padding:28px 24px 40px;
+            border-radius:28px 28px 0 0;padding:26px 22px 36px;
             z-index:9999;transform:translateY(100%);
             transition:transform .45s cubic-bezier(.4,0,.2,1);
             max-width:540px;margin:0 auto;
             box-shadow:0 -16px 60px rgba(0,0,0,.7);
             border:1px solid var(--glass-border);border-bottom:none;
+            max-height:90vh;overflow-y:auto;
         }
         .sheet.open{transform:translateY(0)}
-        .sheet-bar{width:44px;height:4px;background:rgba(255,255,255,.2);border-radius:4px;margin:0 auto 24px}
-        .sheet-top{text-align:center;margin-bottom:28px}
+        .sheet-bar{width:44px;height:4px;background:rgba(255,255,255,.2);border-radius:4px;margin:0 auto 20px}
+        .sheet-top{text-align:center;margin-bottom:22px}
         .sheet-top-icon{
-            width:72px;height:72px;margin:0 auto 18px;
-            background:var(--gradient-cool);border-radius:20px;
-            display:flex;align-items:center;justify-content:center;font-size:2rem;
+            width:64px;height:64px;margin:0 auto 12px;
+            background:var(--gradient-cool);border-radius:18px;
+            display:flex;align-items:center;justify-content:center;font-size:1.7rem;
             box-shadow:0 10px 30px rgba(0,106,255,.35);
         }
-        .sheet-top h3{font-size:1.5rem;font-weight:800;margin-bottom:8px}
-        .sheet-top p{color:var(--text-secondary);font-size:.92rem}
+        .sheet-top h3{font-size:1.35rem;font-weight:800;margin-bottom:4px}
+        .sheet-top p{color:var(--text-secondary);font-size:.85rem}
         .sheet-links{display:flex;flex-direction:column;gap:14px}
 
         /* Downloader Code Card */
         .code-card{
-            padding:20px;
+            padding:16px;
             background:var(--gradient-glass);
             border:1.5px solid var(--glass-border);
             border-radius:var(--radius-md);
-            transition:all .35s;
         }
         .code-card-header{
-            display:flex;align-items:center;gap:14px;margin-bottom:16px;
+            display:flex;align-items:center;gap:12px;margin-bottom:12px;
         }
         .code-card-header .link-icon{
-            width:52px;height:52px;border-radius:14px;flex-shrink:0;
-            display:flex;align-items:center;justify-content:center;font-size:1.5rem;
+            width:44px;height:44px;border-radius:12px;flex-shrink:0;
+            display:flex;align-items:center;justify-content:center;font-size:1.2rem;
             background:var(--gradient-cool);
         }
         .code-card-header .link-info{flex:1;text-align:right}
-        .code-card-header .link-info h4{font-size:1.05rem;font-weight:700;margin-bottom:3px}
-        .code-card-header .link-info p{font-size:.82rem;color:var(--text-secondary)}
+        .code-card-header .link-info h4{font-size:.98rem;font-weight:700;margin-bottom:2px}
+        .code-card-header .link-info p{font-size:.78rem;color:var(--text-secondary)}
         .code-box{
             display:flex;align-items:center;gap:10px;
             background:rgba(0,0,0,.35);
             border:1.5px solid rgba(0,229,255,.15);
             border-radius:var(--radius-sm);
-            padding:4px 4px 4px 16px;
+            padding:4px 4px 4px 14px;
             direction:ltr;
         }
         .code-value{
             flex:1;
-            font-size:1.65rem;font-weight:800;
+            font-size:1.45rem;font-weight:800;
             font-family:'Readex Pro',monospace;
             letter-spacing:3px;
             background:var(--gradient-main);
@@ -295,10 +330,10 @@
         .copy-btn{
             flex-shrink:0;
             display:flex;align-items:center;gap:8px;
-            padding:12px 20px;border:none;cursor:pointer;
+            padding:10px 16px;border:none;cursor:pointer;
             background:var(--gradient-cool);color:#fff;
             border-radius:var(--radius-sm);
-            font-family:inherit;font-size:.9rem;font-weight:700;
+            font-family:inherit;font-size:.85rem;font-weight:700;
             transition:all .3s;white-space:nowrap;
         }
         .copy-btn:hover{
@@ -308,12 +343,12 @@
         .copy-btn.copied{
             background:linear-gradient(135deg,#10b981,#06b6d4);
         }
-        .copy-btn i{font-size:1rem;pointer-events:none}
+        .copy-btn i{font-size:.9rem;pointer-events:none}
 
         /* Direct download link */
         .sheet-link{
-            display:flex;align-items:center;gap:16px;
-            padding:18px 20px;text-decoration:none;color:var(--text-primary);
+            display:flex;align-items:center;gap:14px;
+            padding:16px 18px;text-decoration:none;color:var(--text-primary);
             background:var(--gradient-glass);
             border:1.5px solid var(--glass-border);
             border-radius:var(--radius-md);
@@ -322,21 +357,24 @@
         .sheet-link:hover{
             border-color:rgba(0,229,255,.35);
             background:rgba(0,229,255,.08);
-            transform:translateX(-6px);
+            transform:translateX(-4px);
             box-shadow:0 8px 24px rgba(0,106,255,.2);
         }
         .sheet-link .link-icon{
-            width:52px;height:52px;border-radius:14px;flex-shrink:0;
-            display:flex;align-items:center;justify-content:center;font-size:1.5rem;
+            width:46px;height:46px;border-radius:12px;flex-shrink:0;
+            display:flex;align-items:center;justify-content:center;font-size:1.25rem;
             background:var(--gradient-warm);
         }
+        .sheet-link.player-link .link-icon{
+            background:var(--gradient-player);
+        }
         .sheet-link .link-info{flex:1;text-align:right}
-        .sheet-link .link-info h4{font-size:1.05rem;font-weight:700;margin-bottom:3px}
-        .sheet-link .link-info p{font-size:.82rem;color:var(--text-secondary)}
+        .sheet-link .link-info h4{font-size:.98rem;font-weight:700;margin-bottom:2px}
+        .sheet-link .link-info p{font-size:.78rem;color:var(--text-secondary)}
 
         /* === STATS === */
         .stats{
-            padding:60px 20px;
+            padding:50px 20px;
             background:linear-gradient(180deg,rgba(17,25,50,.3),rgba(11,17,32,.5));
             border-top:1px solid var(--glass-border);
             border-bottom:1px solid var(--glass-border);
@@ -346,7 +384,7 @@
             display:grid;grid-template-columns:repeat(4,1fr);gap:20px;
         }
         .stat-box{
-            text-align:center;padding:28px 16px;
+            text-align:center;padding:24px 16px;
             background:var(--gradient-glass);
             border:1px solid var(--glass-border);
             border-radius:var(--radius-lg);
@@ -364,30 +402,30 @@
         }
         .stat-box:hover::before{transform:scaleX(1);transform-origin:left}
         .stat-num{
-            font-size:clamp(2.2rem,4vw,3rem);font-weight:800;
+            font-size:clamp(1.8rem,3.8vw,2.6rem);font-weight:800;
             background:var(--gradient-main);
             -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
-            margin-bottom:8px;
+            margin-bottom:6px;
         }
-        .stat-label{font-size:.95rem;color:var(--text-secondary);font-weight:700}
+        .stat-label{font-size:.88rem;color:var(--text-secondary);font-weight:700}
 
         @media(max-width:768px){
             .stats-row{grid-template-columns:repeat(2,1fr);gap:14px}
         }
 
         /* === FEATURES === */
-        .features{padding:90px 20px;max-width:1100px;margin:0 auto}
-        .sec-head{text-align:center;margin-bottom:60px}
-        .sec-head h3{font-size:clamp(1.8rem,4vw,2.6rem);font-weight:800;margin-bottom:16px}
-        .sec-head p{color:var(--text-secondary);font-size:1.05rem;max-width:500px;margin:0 auto}
+        .features{padding:70px 20px;max-width:1100px;margin:0 auto}
+        .sec-head{text-align:center;margin-bottom:45px}
+        .sec-head h3{font-size:clamp(1.8rem,4vw,2.5rem);font-weight:800;margin-bottom:12px}
+        .sec-head p{color:var(--text-secondary);font-size:.95rem;max-width:500px;margin:0 auto}
         .feat-grid{
-            display:grid;grid-template-columns:repeat(3,1fr);gap:20px;
+            display:grid;grid-template-columns:repeat(3,1fr);gap:18px;
         }
         @media(max-width:900px){.feat-grid{grid-template-columns:repeat(2,1fr)}}
         @media(max-width:560px){.feat-grid{grid-template-columns:1fr}}
 
         .feat-card{
-            padding:36px 28px;
+            padding:30px 22px;
             background:var(--gradient-glass);
             border:1.5px solid var(--glass-border);
             border-radius:var(--radius-lg);
@@ -415,16 +453,16 @@
             opacity:0;transition:opacity .4s;
         }
         .feat-card:hover{
-            transform:translateY(-10px);
+            transform:translateY(-6px);
             border-color:rgba(0,229,255,.25);
-            box-shadow:0 20px 50px rgba(0,106,255,.15);
+            box-shadow:0 18px 45px rgba(0,106,255,.15);
         }
         .feat-card:hover::before{opacity:1}
 
         .feat-ico{
-            width:68px;height:68px;margin:0 auto 22px;
-            border-radius:18px;
-            display:flex;align-items:center;justify-content:center;font-size:1.8rem;
+            width:60px;height:60px;margin:0 auto 18px;
+            border-radius:16px;
+            display:flex;align-items:center;justify-content:center;font-size:1.6rem;
             transition:all .4s;position:relative;z-index:1;
         }
         .feat-card:hover .feat-ico{transform:scale(1.1) rotate(6deg)}
@@ -439,42 +477,41 @@
         .feat-card:nth-child(8) .feat-ico{background:var(--gradient-warm);box-shadow:0 8px 25px rgba(255,94,122,.3)}
         .feat-card:nth-child(9) .feat-ico{background:linear-gradient(135deg,#06b6d4,#3b82f6);box-shadow:0 8px 25px rgba(6,182,212,.3)}
 
-        .feat-card h4{font-size:1.2rem;font-weight:800;margin-bottom:12px;position:relative;z-index:1}
-        .feat-card p{color:var(--text-secondary);font-size:.92rem;line-height:1.8;position:relative;z-index:1}
+        .feat-card h4{font-size:1.1rem;font-weight:800;margin-bottom:8px;position:relative;z-index:1}
+        .feat-card p{color:var(--text-secondary);font-size:.88rem;line-height:1.7;position:relative;z-index:1}
 
         /* === FOOTER === */
         footer{
-            padding:50px 20px;text-align:center;
+            padding:45px 20px;text-align:center;
             border-top:1px solid var(--glass-border);
         }
         .social-row{
-            display:flex;justify-content:center;gap:18px;margin-bottom:28px;flex-wrap:wrap;
+            display:flex;justify-content:center;gap:16px;margin-bottom:24px;flex-wrap:wrap;
         }
         .soc-btn{
-            width:52px;height:52px;border-radius:50%;
+            width:48px;height:48px;border-radius:50%;
             background:var(--gradient-glass);
             border:1.5px solid var(--glass-border);
             display:flex;align-items:center;justify-content:center;
-            color:var(--text-primary);font-size:1.2rem;
+            color:var(--text-primary);font-size:1.15rem;
             text-decoration:none;transition:all .35s;
         }
         .soc-btn:hover{
             background:var(--gradient-cool);border-color:transparent;
-            transform:translateY(-6px) scale(1.1);
+            transform:translateY(-5px) scale(1.08);
             box-shadow:0 10px 25px rgba(0,106,255,.35);
         }
-        .footer-copy{color:var(--text-muted);font-size:.88rem;line-height:1.8}
+        .footer-copy{color:var(--text-muted);font-size:.85rem;line-height:1.8}
 
         /* === DOWNLOAD COUNTER === */
         .dl-counter{
             display:flex;align-items:center;justify-content:center;gap:10px;
-            margin-top:18px;
-            padding:14px 28px;
+            margin-top:6px;
+            padding:12px 24px;
             background:var(--gradient-glass);
             border:1.5px solid var(--glass-border);
             border-radius:50px;
             width:fit-content;
-            margin-left:auto;margin-right:auto;
             transition:all .4s;
         }
         .dl-counter:hover{
@@ -482,22 +519,22 @@
             box-shadow:0 8px 24px rgba(0,106,255,.12);
         }
         .dl-counter-icon{
-            width:36px;height:36px;border-radius:50%;
+            width:32px;height:32px;border-radius:50%;
             background:var(--gradient-cool);
             display:flex;align-items:center;justify-content:center;
-            font-size:.85rem;flex-shrink:0;
+            font-size:.8rem;flex-shrink:0;
         }
         .dl-counter-info{
             display:flex;flex-direction:column;align-items:flex-start;
-            line-height:1.3;
+            line-height:1.2;
         }
         .dl-counter-num{
-            font-size:1.3rem;font-weight:800;
+            font-size:1.25rem;font-weight:800;
             font-family:'Readex Pro',monospace;
             background:var(--gradient-main);
             -webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;
             direction:ltr;display:inline-block;
-            min-width:40px;
+            min-width:20px;
         }
         .dl-counter-num.counting{
             animation:countPulse .4s ease;
@@ -532,10 +569,10 @@
 
         /* === RESPONSIVE === */
         @media(max-width:480px){
-            .dl-main-btn{flex-direction:column;gap:10px;text-align:center}
+            .dl-main-btn{flex-direction:column;gap:8px;text-align:center}
             .dl-main-btn .btn-text{align-items:center}
             .header-badge{display:none}
-            .sheet{border-radius:22px 22px 0 0;padding:24px 18px 34px}
+            .sheet{border-radius:22px 22px 0 0;padding:22px 16px 30px}
         }
     </style>
 </head>
@@ -552,15 +589,15 @@
     <header>
         <div class="header-inner">
             <div class="logo-group">
-                <img src="https://i.top4top.io/p_37488mtzx1.jpg" alt="Viv x Max TV" class="logo-img">
+                <img src="https://a.top4top.io/p_3911jmqjx1.jpg" alt="بيتماك TV+" class="logo-img" referrerpolicy="no-referrer">
                 <div>
-                    <div class="logo-name">Viv x Max TV</div>
+                    <div class="logo-name">بيتماك TV+</div>
                     <div class="logo-sub">عالمك الترفيهي الشامل</div>
                 </div>
             </div>
             <div class="header-badge">
                 <span class="dot"></span>
-                أحدث إصدار
+                أحدث إصدار 2026
             </div>
         </div>
     </header>
@@ -569,79 +606,89 @@
     <section class="hero">
         <div class="hero-chip fade-up">
             <i class="fas fa-bolt"></i>
-            النسخة الأحدث 2025
+            النسخة الرسمية والجديدة
         </div>
         <h2 class="fade-up d1">
             استمتع بأفضل تجربة ترفيهية مع<br>
-            <span class="highlight"><span>Viv x Max TV</span></span>
+            <span class="highlight"><span>بيتماك TV+</span></span>
         </h2>
         <p class="hero-desc fade-up d2">
-            تطبيقك الشامل لمشاهدة آلاف الأفلام والمسلسلات العربية والأجنبية، القنوات المباشرة، القنوات الرياضية بما فيها beIN Sports، وأكثر بجودة عالية وبدون إعلانات مزعجة!
+            تطبيقك الشامل لمشاهدة آلاف الأفلام والمسلسلات العربية والأجنبية، القنوات المباشرة، القنوات الرياضية بما فيها beIN Sports، وأكثر بجودة عالية وبدون تقطيع!
         </p>
 
-        <!-- PHONES - Three Phones with new images -->
+        <!-- PHONES -->
         <div class="preview-wrap fade-up d3">
             <div class="preview-glow"></div>
+            
             <div class="phone">
                 <div class="phone-notch"></div>
                 <div class="phone-screen">
-                                        <img src="https://b.top4top.io/p_3748hap5p1.jpg" alt="Viv x Max TV App Screen 1">
+                    <img src="https://c.top4top.io/p_3911f1rzl1.jpg" alt="الشاشة الأولى" referrerpolicy="no-referrer" loading="eager">
                 </div>
             </div>
+
             <div class="phone">
                 <div class="phone-notch"></div>
                 <div class="phone-screen">
-                    <img src="https://c.top4top.io/p_3748tjjv71.jpg" alt="Viv x Max TV App Screen 2">
+                    <img src="https://f.top4top.io/p_3911cnnbf1.jpg" alt="الشاشة الثانية" referrerpolicy="no-referrer" loading="eager">
                 </div>
             </div>
+
             <div class="phone">
                 <div class="phone-notch"></div>
                 <div class="phone-screen">
-                    <img src="https://i.top4top.io/p_3748oizke1.jpg" alt="Viv x Max TV App Screen 3">
+                    <img src="https://e.top4top.io/p_3911d3dez1.jpg" alt="الشاشة الثالثة" referrerpolicy="no-referrer" loading="eager">
+                </div>
+            </div>
+
+            <div class="phone">
+                <div class="phone-notch"></div>
+                <div class="phone-screen">
+                    <img src="https://f.top4top.io/p_3911zkned1.jpg" alt="الشاشة الرابعة" referrerpolicy="no-referrer" loading="eager">
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- DOWNLOAD -->
+    <!-- DOWNLOAD AREA -->
     <section class="download-area fade-up d4">
         <button class="dl-main-btn" id="dlBtn" type="button">
             <i class="fas fa-arrow-down"></i>
             <span class="btn-text">
-                <small>تحميل مجاني</small>
+                <small>تحميل مجاني مباشر</small>
                 <strong>تحميل التطبيق الآن</strong>
             </span>
         </button>
-        <!-- Download Counter -->
+
         <div class="dl-counter">
             <div class="dl-counter-icon"><i class="fas fa-download"></i></div>
             <div class="dl-counter-info">
-                <span class="dl-counter-num" id="dlCounterNum">--</span>
+                <span class="dl-counter-num" id="dlCounterNum">0</span>
                 <span class="dl-counter-label">عدد التحميلات</span>
             </div>
             <div class="dl-counter-dot"></div>
         </div>
     </section>
 
-    <!-- BOTTOM SHEET -->
+    <!-- BOTTOM SHEET DIALOG -->
     <div class="overlay" id="overlay"></div>
     <div class="sheet" id="sheet">
         <div class="sheet-bar"></div>
         <div class="sheet-top">
             <div class="sheet-top-icon">
-                <i class="fas fa-arrow-down"></i>
+                <i class="fas fa-download"></i>
             </div>
             <h3>اختر طريقة التحميل</h3>
-            <p>حمل تطبيق Viv x Max TV بالطريقة الأسهل بالنسبة لك</p>
+            <p>حمل تطبيق بيتماك TV+ أو المشغل بالطريقة المناسبة لك</p>
         </div>
         <div class="sheet-links">
-            <!-- Downloader Code -->
+            <!-- 1. Downloader Code -->
             <div class="code-card">
                 <div class="code-card-header">
                     <div class="link-icon"><i class="fas fa-cloud-arrow-down"></i></div>
                     <div class="link-info">
-                        <h4>كود Downloader</h4>
-                        <p>أدخل هذا الكود في تطبيق Downloader</p>
+                        <h4>كود Downloader للتلفزيون</h4>
+                        <p>أدخل هذا الكود في تطبيق Downloader على الشاشة الذكية</p>
                     </div>
                 </div>
                 <div class="code-box">
@@ -653,12 +700,21 @@
                 </div>
             </div>
 
-            <!-- Direct Download -->
-            <a href="https://www.mediafire.com/file/4xu76nn9khh60v0/Viv_x_Max.apk/file" class="sheet-link" target="_blank">
+            <!-- 2. Direct App Download (Auto-Protected via OUO.io) -->
+            <a href="https://www.mediafire.com/file/xdzenop80sanb28/%25D8%25A8%25D9%258A%25D8%25AA%25D9%2585%25D8%25A7%25D9%2583_TV%252B_signed.apk/file" class="sheet-link track-dl" target="_blank">
                 <div class="link-icon"><i class="fas fa-file-arrow-down"></i></div>
                 <div class="link-info">
-                    <h4>التحميل المباشر</h4>
-                    <p>تحميل مباشر للملف APK</p>
+                    <h4>تحميل التطبيق (APK)</h4>
+                    <p>تحميل مباشر لملف التطبيق للأندرويد</p>
+                </div>
+            </a>
+
+            <!-- 3. Player Download Link (Auto-Protected via OUO.io) -->
+            <a href="https://www.mediafire.com/file/zqjq3n7186ux1be/%25D9%2585%25D8%25B4%25D8%25BA%25D9%2584_%25D8%25A8%25D9%258A%25D8%25AA%25D9%2585%25D8%25A7%25D9%2583_tv_signed.apk/file" class="sheet-link player-link track-dl" target="_blank">
+                <div class="link-icon"><i class="fas fa-play-circle"></i></div>
+                <div class="link-info">
+                    <h4>تحميل المشغل الخارجي (Player)</h4>
+                    <p>تحميل مشغل الفيديو الخاص بتشغيل الباقات</p>
                 </div>
             </a>
         </div>
@@ -689,54 +745,54 @@
     <!-- FEATURES -->
     <section class="features">
         <div class="sec-head">
-            <h3>مميزات <span class="highlight"><span>Viv x Max TV</span></span></h3>
+            <h3>مميزات <span class="highlight"><span>بيتماك TV+</span></span></h3>
             <p>اكتشف كل ما يميز تطبيقنا ويجعله الخيار الأفضل لك</p>
         </div>
         <div class="feat-grid">
             <div class="feat-card">
                 <div class="feat-ico"><i class="fas fa-film"></i></div>
                 <h4>مكتبة ضخمة من الأفلام</h4>
-                <p>آلاف الأفلام العربية والأجنبية بجميع التصنيفات</p>
+                <p>آلاف الأفلام العربية والأجنبية المترجمة بجميع التصنيفات</p>
             </div>
             <div class="feat-card">
                 <div class="feat-ico"><i class="fas fa-tv"></i></div>
                 <h4>مسلسلات متنوعة</h4>
-                <p>تابع أحدث المسلسلات العربية والتركية والأجنبية</p>
+                <p>تابع أحدث المسلسلات العربية والتركية والأجنبية أولاً بأول</p>
             </div>
             <div class="feat-card">
                 <div class="feat-ico"><i class="fas fa-broadcast-tower"></i></div>
                 <h4>قنوات بث مباشر</h4>
-                <p>أكثر من 200 قناة عربية مباشرة للترفيه</p>
+                <p>أكثر من 200 قناة عربية وعالمية مباشرة للترفيه</p>
             </div>
             <div class="feat-card">
                 <div class="feat-ico"><i class="fas fa-futbol"></i></div>
                 <h4>القنوات الرياضية</h4>
-                <p>جميع قنوات beIN Sports بجودة عالية</p>
+                <p>جميع قنوات beIN Sports وباقات الرياضة بجودة عالية</p>
             </div>
             <div class="feat-card">
                 <div class="feat-ico"><i class="fas fa-calendar-alt"></i></div>
                 <h4>جدول المباريات</h4>
-                <p>جدول كامل للمباريات مع المواعيد الدقيقة</p>
+                <p>جدول كامل للمباريات اليومية مع المواعيد والسيرفرات</p>
             </div>
             <div class="feat-card">
                 <div class="feat-ico"><i class="fas fa-clapperboard"></i></div>
                 <h4>جودة عالية HD & 4K</h4>
-                <p>استمتع بالمشاهدة بأعلى جودة ممكنة</p>
+                <p>استمتع بالمشاهدة بأعلى جودة ممكنة بدون تقطيع</p>
             </div>
             <div class="feat-card">
                 <div class="feat-ico"><i class="fas fa-download"></i></div>
                 <h4>إمكانية التحميل</h4>
-                <p>حمل محتواك المفضل للمشاهدة بدون إنترنت</p>
+                <p>حمل محتواك المفضل للمشاهدة لاحقاً بدون إنترنت</p>
             </div>
             <div class="feat-card">
                 <div class="feat-ico"><i class="fas fa-mobile-screen-button"></i></div>
-                <h4>واجهة سهلة</h4>
-                <p>تصميم عصري وبسيط للجميع</p>
+                <h4>واجهة سهلة وسريعة</h4>
+                <p>تصميم عصري وسلس متوافق مع كافة الأجهزة والشاشات</p>
             </div>
             <div class="feat-card">
                 <div class="feat-ico"><i class="fas fa-arrows-rotate"></i></div>
                 <h4>تحديثات مستمرة</h4>
-                <p>محتوى جديد يومياً وتحسينات دورية</p>
+                <p>إضافة محتوى جديد يومياً وتحسينات مستمرة للسيرفرات</p>
             </div>
         </div>
     </section>
@@ -750,13 +806,13 @@
             <a href="https://www.facebook.com/share/1CLnnzFVmF/" class="soc-btn" target="_blank" aria-label="فيسبوك">
                 <i class="fab fa-facebook-f"></i>
             </a>
-            <a href="mailto:support@vivxmaxtv.com" class="soc-btn" aria-label="البريد الإلكتروني">
+            <a href="mailto:support@bitmactv.com" class="soc-btn" aria-label="البريد الإلكتروني">
                 <i class="fas fa-envelope"></i>
             </a>
         </div>
         <p class="footer-copy">
-            &copy; 2025 Viv x Max TV. جميع الحقوق محفوظة<br>
-            تطبيق للترفيه والمشاهدة المجانية - تطبيق رياضي وافلام ومسلسلات
+            &copy; 2026 بيتماك TV+. جميع الحقوق محفوظة<br>
+            تطبيق للترفيه والمشاهدة المجانية - تطبيق رياضي وأفلام ومسلسلات
         </p>
     </footer>
 
@@ -766,7 +822,7 @@
     <script src="https://cdn.jsdelivr.net/npm/firebase@10.14.1/firebase-database-compat.min.js"></script>
 
     <script>
-        /* ========== Firebase Init ========== */
+        /* ========== Firebase Initialization ========== */
         var firebaseConfig = {
             apiKey: "AIzaSyAl-JPKOa-I7MLUrL0adY8if48_zEdYvDc",
             authDomain: "filmoox.firebaseapp.com",
@@ -787,13 +843,13 @@
                 fbApp = firebase.initializeApp(firebaseConfig);
                 fbDb = firebase.database();
                 firebaseReady = true;
-                try { firebase.analytics(); } catch(e) { }
+                try { firebase.analytics(); } catch(e) {}
             }
         } catch (err) {
-            console.log("Firebase init note: " + err.message);
+            console.log("Firebase status: " + err.message);
         }
 
-        /* ========== Download Counter ========== */
+        /* ========== REAL DOWNLOAD COUNTER LOGIC ========== */
         var dlCounterEl = document.getElementById("dlCounterNum");
 
         function formatNumber(num) {
@@ -810,36 +866,43 @@
             }, 400);
         }
 
-        function loadDownloadCount() {
+        function loadRealDownloadCount() {
             if (firebaseReady && fbDb) {
-                var countRef = fbDb.ref("downloads/count");
+                var countRef = fbDb.ref("bitmac_downloads/count");
                 countRef.on("value", function(snapshot) {
                     var val = snapshot.val();
                     if (val !== null && typeof val === "number") {
                         animateCounter(val);
                     } else {
-                        animateCounter(28450);
+                        countRef.set(0);
+                        animateCounter(0);
                     }
                 }, function() {
-                    animateCounter(28450);
+                    animateCounter(0);
                 });
             } else {
-                animateCounter(28450);
+                animateCounter(0);
             }
         }
 
         function incrementDownload() {
             if (firebaseReady && fbDb) {
-                var countRef = fbDb.ref("downloads/count");
+                var countRef = fbDb.ref("bitmac_downloads/count");
                 countRef.transaction(function(current) {
-                    return (current || 28450) + 1;
+                    return (current || 0) + 1;
                 });
             }
         }
 
-        loadDownloadCount();
+        loadRealDownloadCount();
 
-        /* ========== Bottom Sheet ========== */
+        document.querySelectorAll(".track-dl").forEach(function(el) {
+            el.addEventListener("click", function() {
+                incrementDownload();
+            });
+        });
+
+        /* ========== Bottom Sheet Popup Logic ========== */
         var dlBtn = document.getElementById("dlBtn");
         var sheet = document.getElementById("sheet");
         var overlay = document.getElementById("overlay");
@@ -848,8 +911,8 @@
             sheet.classList.add("open");
             overlay.classList.add("open");
             document.body.style.overflow = "hidden";
-            incrementDownload();
         }
+
         function closeSheet() {
             sheet.classList.remove("open");
             overlay.classList.remove("open");
@@ -858,11 +921,12 @@
 
         dlBtn.addEventListener("click", openSheet);
         overlay.addEventListener("click", closeSheet);
+
         document.addEventListener("keydown", function (e) {
             if (e.key === "Escape") { closeSheet(); }
         });
 
-        /* ========== Copy Code ========== */
+        /* ========== Copy Downloader Code ========== */
         var copyBtn = document.getElementById("copyBtn");
         copyBtn.addEventListener("click", function () {
             var code = document.getElementById("dlCode").textContent;
@@ -894,8 +958,8 @@
             }, 2000);
         }
 
-        /* ========== Touch Swipe to Dismiss ========== */
-        (function () {
+        /* ========== Touch Swipe to Close Sheet ========== */
+        (function() {
             var startY = 0;
             var currentY = 0;
             var dragging = false;
@@ -906,7 +970,7 @@
                 sheet.style.transition = "none";
             });
             sheet.addEventListener("touchmove", function (e) {
-                if (!dragging) { return; }
+                if (!dragging) return;
                 currentY = e.touches[0].clientY;
                 var diff = currentY - startY;
                 if (diff > 0) {
@@ -920,18 +984,14 @@
                 if (diff > 100) {
                     closeSheet();
                 } else {
-                    if (sheet.classList.contains("open")) {
-                        sheet.style.transform = "translateY(0)";
-                    } else {
-                        sheet.style.transform = "";
-                    }
+                    sheet.style.transform = sheet.classList.contains("open") ? "translateY(0)" : "";
                 }
                 startY = 0;
                 currentY = 0;
             });
         })();
 
-        /* ========== Intersection Observer for Cards ========== */
+        /* ========== Intersection Observer for Cards Animation ========== */
         var obsOpts = { threshold: 0.1, rootMargin: "0px 0px -60px 0px" };
         var cardObs = new IntersectionObserver(function (entries) {
             entries.forEach(function (entry) {
@@ -952,7 +1012,7 @@
                 var s = window.pageYOffset;
                 var orbs = document.querySelectorAll(".orb");
                 orbs.forEach(function (orb, i) {
-                    var speed = 0.15 + i * 0.08;
+                    var speed = 0.12 + i * 0.06;
                     orb.style.transform = "translateY(" + (s * speed) + "px)";
                 });
             }, { passive: true });
