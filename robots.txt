@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Disallow: /index-source.txt
+Sitemap: https://bitmactv.vercel.app/sitemap.xml
