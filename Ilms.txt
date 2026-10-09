@@ -1,0 +1,14 @@
+# شاهد بيتماك
+
+موقع شاهد بيتماك الرسمي لتحميل تطبيق الترفيه والبث المباشر للأجهزة التي تعمل بنظام Android.
+
+## الروابط
+
+- الصفحة الرئيسية: https://bitmactv.vercel.app/
+- سياسة الخصوصية: https://bitmactv.vercel.app/privacy.html
+- تحميل F1 TV: https://www.mediafire.com/file/lauqw9xqr2a7bpv/F1+TV_signed.apk/file
+
+## ملاحظات
+
+- الموقع يعرض روابط التحميل فقط ولا يطلب إنشاء حساب.
+- كود Downloader الخاص بـ F1 TV هو 9860812.
